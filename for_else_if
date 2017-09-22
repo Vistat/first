@@ -1,0 +1,13 @@
+for(var arr=1;arr<101;arr++){
+  if(arr % 3==0 && arr % 5 ==0)
+    console.log("FizzBuzz")
+    
+  else if(arr % 3 == 0)
+    console.log("Fizz");
+    
+  else if(arr % 5==0)
+    console.log("Buzz");
+  else
+  
+  console.log(arr);
+}
