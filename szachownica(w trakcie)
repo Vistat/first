@@ -1,0 +1,10 @@
+var hori =8 //prompt("Ile w poziomie?","")
+var vert =8 //prompt("Ile w pionie?","")
+
+
+for(var x = 1;x<hori;x++) {
+  x=x+"# ";
+    console.log("# ");
+}
+
+
