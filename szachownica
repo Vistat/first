@@ -1,0 +1,62 @@
+var hori =prompt("Ile kolumn ma mieć szachownica?","")
+var vert =prompt("Ile wierszy ma mieć szachownica?","")
+
+var hash="#"
+var space=" "
+var base=""
+
+
+for(var counter1 = 1;counter1<hori;counter1++){
+    //var brick = brick+"# "}
+    if(counter1 % 2==0)
+    base+=space;
+    else
+    base+=hash;
+}
+    console.log(base)
+    
+    
+      for(var counter2 = 1;counter2<vert;counter2++){
+        if(counter2 % 2==0)
+          console.log(base);
+        else
+          console.log(" "+base);
+      }
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
