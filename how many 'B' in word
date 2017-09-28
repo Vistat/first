@@ -1,0 +1,34 @@
+//mam słowo nastepnie liczę iloć liczb w słowie potem sprawdzam czy pierwsza litera: 
+//jest "B" jak jest to dodaje do licznika 1 i przechodze do nastepnej litery aż do ostatniej
+//jak nie to przechodze do następnej litery
+//na końcu wyswietlam liczbę liter
+
+function countBS(word){
+  var BScounter=0;
+  var resault=0;
+  function lengthCounter(word){
+    var n= word.length;
+      return n;
+  }
+   while(BScounter<lengthCounter(word)){
+    if (word.charAt(BScounter) === "B"){
+      resault++, BScounter++;
+    }
+    else{
+      BScounter++;
+    }
+  }
+    return resault;
+}
+
+console.log(countBS("BamBamhue"))
+
+  //zadanie jest do dokończenia (druga częsc)
+  
+  
+  
+  
+  
+  
+  
+  
