@@ -25,6 +25,28 @@ console.log(countBS("BamBamhue"))
 
   //zadanie jest do dokończenia (druga częsc)
   
+  2 argumentowa funkcja licząca wybrany symbol w stringu
+  
+  function countchar(word, lete){
+  var BScounter=0;
+  var resault=0;
+  function lengthCounter(word){
+    var n= word.length;
+      return n;
+  }
+   while(BScounter<lengthCounter(word)){
+    if (word.charAt(BScounter) === lete){
+      resault++, BScounter++;
+    }
+    else{
+      BScounter++;
+    }
+  }
+    return resault;
+}
+
+countchar("anastasia", "s");
+
   
   
   
